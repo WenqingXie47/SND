@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T23:39:35.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="ebtLXxTacLA_Mq5F_JUA" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T23:40:12.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="VChBpINN2MPrtFKnXo6p" version="17.1.3" type="github">
   <diagram id="NPQNEvUZd93E6L1WkFEV" name="Page-1">
     <mxGraphModel dx="870" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -152,6 +152,9 @@
         </mxCell>
         <mxCell id="hfaoqGvCwaQ-2JbTVN7c-31" value="Output gate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="190" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hfaoqGvCwaQ-2JbTVN7c-48" value="Block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="485" y="555" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
