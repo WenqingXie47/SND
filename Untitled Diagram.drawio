@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T15:38:58.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" version="17.1.3" etag="wU-fVRCB2y6UlzjSB019" type="github"><diagram id="yZldCHJUI5k4vdMNnABy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-20T16:07:14.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="rxen50X_xhO10s5bhf3P" version="17.1.3" type="github">
+  <diagram id="yZldCHJUI5k4vdMNnABy" name="Page-1">
+    <mxGraphModel dx="1697" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-1" target="kS2-DBK0RlhTCwooAqhe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-1" value="$$\vec{r_{0}},\vec{r_{1}},\cdots,\vec{r_{n-1}}&lt;br style=&quot;font-size: 13px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-3" target="kS2-DBK0RlhTCwooAqhe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-3" value="LSTM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-4" target="kS2-DBK0RlhTCwooAqhe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-4" value="Fully-connected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-6" value="$$\hat{\vec{r_{1}}},\hat{\vec{r_{2}}},\cdots, \hat{\vec{r_{n}}}&lt;br style=&quot;font-size: 13px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-12" target="kS2-DBK0RlhTCwooAqhe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-12" value="$$\vec{r_{0}},\vec{r_{1}},\cdots,\vec{r_{n-1}}&lt;br style=&quot;font-size: 13px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-14" target="kS2-DBK0RlhTCwooAqhe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-14" value="LSTM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=13;" edge="1" parent="1" source="kS2-DBK0RlhTCwooAqhe-16" target="kS2-DBK0RlhTCwooAqhe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-16" value="Fully-connected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-17" value="$$(\hat{\vec{r_{1}}},\Sigma_{1}),(\hat{\vec{r_{2}}},\Sigma_{2}),\cdots, (\hat{\vec{r_{n}}},\Sigma_{n})&lt;br style=&quot;font-size: 13px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-18" value="$$\vec{r} = (r,\phi,z)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry y="300" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-19" value="$$\hat{\vec{r}} = (\hat{\phi},\hat{z})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-20" value="$$\vec{r} = (r,\phi,z)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry y="460" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-21" value="$$\hat{\vec{r}} = (\hat{\phi},\hat{z})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="555" y="460" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2-DBK0RlhTCwooAqhe-24" value="$$\Sigma=&lt;br&gt; \begin{pmatrix}&lt;br&gt;&amp;nbsp; \sigma_{\phi}^{2} &amp;amp; \sigma_{\phi z}^{2} \\&lt;br&gt;&amp;nbsp; \sigma_{\phi z}^{2} &amp;amp; \sigma_{z}^{2}&lt;br&gt; \end{pmatrix}$$" style="text;html=1;spacing=5;spacingTop=-10;whiteSpace=wrap;overflow=hidden;fillColor=none;strokeColor=none;shadow=0;rounded=0;verticalAlign=middle" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="232" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
